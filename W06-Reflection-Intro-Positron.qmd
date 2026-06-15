@@ -87,7 +87,7 @@ Positron also lets you connect your own AI provider, whether that is OpenAI, Ant
 ### Free vs. Paid AI Options
 
 | Tool | Cost | Notes |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Positron Assistant | Free | Included with Positron |
 | GitHub Copilot | Free (Education) | Requires GitHub Student Developer Pack |
 | OpenAI or Claude via API | Paid | Bring Your Own LLM option |
@@ -97,7 +97,7 @@ Positron also lets you connect your own AI provider, whether that is OpenAI, Ant
 
 I had not used GitHub Copilot before this assignment. After learning it was free for students through the GitHub Education program, I applied using my Cal Poly Pomona email and was accepted into the GitHub Student Developer Pack.
 
-![GitHub Education Acceptance Screenshot](Screenshot 2026-06-14 224248.png){#fig-copilot fig-alt="Screenshot showing GitHub Education program acceptance"}
+![GitHub Education Acceptance Screenshot](Screenshot%202026-06-14%20224248.png){#fig-copilot fig-alt="Screenshot showing GitHub Education program acceptance"}
 
 ### Was Copilot Helpful or Distracting?
 
@@ -114,7 +114,7 @@ Going into this I was a bit skeptical, mostly because I already second guess AI 
 To publish this report I rendered the `.qmd` file to HTML using Quarto, pushed the project to a GitHub repository, and enabled GitHub Pages in the repository settings pointing to the folder containing the rendered HTML file.
 
 ::: {.callout-note title="Published Report"}
-**GitHub Pages URL:** https://naran115.github.io/Intro-Positron-Aldo
+**GitHub Pages URL:** https://naran115.github.io/Intro-Positron-Aldo/W06-Reflection-Intro-Positron.html
 :::
 
 ------------------------------------------------------------------------
