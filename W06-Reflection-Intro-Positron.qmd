@@ -1,6 +1,6 @@
 ---
 title: "W06-Reflection Essay-Introduction to Positron"
-author: "Aldo"
+author: "Aldo Naranjo"
 date: '`r format(Sys.time())`'
 format: 
   html: 
@@ -22,7 +22,7 @@ execute:
 
 This essay reflects on what I learned from the Positron introductory materials in Week 6. Positron is a relatively new IDE from Posit, PBC, and going through the videos gave me a clearer picture of what it offers compared to what I have been using. My experience so far has mostly been in RStudio, so that is the lens I am coming from.
 
----
+------------------------------------------------------------------------
 
 ## Prompt 1: Positron vs. RStudio — What I Like About Positron {#sec-positron-vs-rstudio}
 
@@ -42,7 +42,9 @@ The interface looks cleaner and more modern than RStudio. It has an activity bar
 
 ### Support for Both R and Python
 
-This was probably the most interesting part to me. I am primarily an R user, so I have not felt a strong need for Python support inside RStudio. But seeing that Positron treats both languages equally made me think about how that could be useful down the line as I take on more varied projects.^[For students in programs that use both R and Python, this is a meaningful advantage over RStudio where Python support has always felt like an add-on.]
+This was probably the most interesting part to me. I am primarily an R user, so I have not felt a strong need for Python support inside RStudio. But seeing that Positron treats both languages equally made me think about how that could be useful down the line as I take on more varied projects.[^1]
+
+[^1]: For students in programs that use both R and Python, this is a meaningful advantage over RStudio where Python support has always felt like an add-on.
 
 ### Data Explorer
 
@@ -56,7 +58,7 @@ The workspace-based project setup is similar to how VS Code handles things. Open
 Positron does not feel like a completely different tool. It feels like RStudio with some rough edges smoothed out and with more room to grow. For someone like me who is already comfortable in RStudio, the transition does not look intimidating.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Prompt 2: AI in Positron {#sec-ai-positron}
 
@@ -64,8 +66,7 @@ Positron does not feel like a completely different tool. It feels like RStudio w
 
 ### AI Features in Positron
 
-::: {.panel-tabset}
-
+::: panel-tabset
 #### Positron Assistant
 
 Positron Assistant is the built-in AI chat tool. What makes it different from just opening a separate chat window is that it is context-aware. It can see what is loaded in your environment, what data frames you have open, and what files you are working in. That means instead of copying and pasting your code into a chat window like I typically do with ChatGPT or Claude, the assistant already knows what you are working with and can give more relevant responses.
@@ -81,13 +82,12 @@ Databot is a specialized tool built for exploratory data analysis. It follows so
 #### Bring Your Own LLM
 
 Positron also lets you connect your own AI provider, whether that is OpenAI, Anthropic, or something else. Some options are free and some are paid depending on the provider. This gives users flexibility to use whatever model they are already comfortable with.
-
 :::
 
 ### Free vs. Paid AI Options
 
 | Tool | Cost | Notes |
-|---|---|---|
+|------------------------|------------------------|------------------------|
 | Positron Assistant | Free | Included with Positron |
 | GitHub Copilot | Free (Education) | Requires GitHub Student Developer Pack |
 | OpenAI or Claude via API | Paid | Bring Your Own LLM option |
@@ -95,11 +95,9 @@ Positron also lets you connect your own AI provider, whether that is OpenAI, Ant
 
 ### GitHub Copilot {#sec-copilot}
 
-I had not used GitHub Copilot before this assignment. After learning it was free for students through the GitHub Education program, I applied using my Cal Poly Pomona email and was accepted into the GitHub Student Developer Pack.^[The Student Developer Pack includes Copilot along with a number of other tools at no cost for verified students.]
+I had not used GitHub Copilot before this assignment. After learning it was free for students through the GitHub Education program, I applied using my Cal Poly Pomona email and was accepted into the GitHub Student Developer Pack.
 
-![GitHub Education Acceptance Screenshot](screenshot-placeholder.png){#fig-copilot fig-alt="Screenshot showing GitHub Education program acceptance"}
-
-*Replace the image above with your actual screenshot before submitting.*
+![GitHub Education Acceptance Screenshot](Screenshot 2026-06-14 224248.png){#fig-copilot fig-alt="Screenshot showing GitHub Education program acceptance"}
 
 ### Was Copilot Helpful or Distracting?
 
@@ -107,7 +105,7 @@ I had not used GitHub Copilot before this assignment. After learning it was free
 Going into this I was a bit skeptical, mostly because I already second guess AI suggestions when I use ChatGPT or Claude for coding help. I do not blindly trust what comes back and I usually verify things myself before moving on. That said, I can see how inline suggestions inside the editor would be more convenient than switching between windows. The fact that it suggests code as you type rather than requiring you to ask a question feels like a more natural part of the workflow. I think whether it is helpful or distracting probably comes down to how disciplined you are about reviewing what it gives you. For me, the habit of double checking is already there, so I think I would get more benefit than distraction out of it.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Prompt 3: Publishing to GitHub Pages {#sec-github-pages}
 
@@ -116,10 +114,10 @@ Going into this I was a bit skeptical, mostly because I already second guess AI 
 To publish this report I rendered the `.qmd` file to HTML using Quarto, pushed the project to a GitHub repository, and enabled GitHub Pages in the repository settings pointing to the folder containing the rendered HTML file.
 
 ::: {.callout-note title="Published Report"}
-**GitHub Pages URL:** *(Add your URL here after publishing)*
+**GitHub Pages URL:** https://naran115.github.io/Intro-Positron-Aldo
 :::
 
----
+------------------------------------------------------------------------
 
 ## Summary
 
